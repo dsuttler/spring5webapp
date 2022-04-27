@@ -6,12 +6,12 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by jt on 12/24/19.
+ * Created by jt on 5/18/17.
  */
 @Controller
 public class BookController {
 
-    private final BookRepository bookRepository;
+    private BookRepository bookRepository;
 
     public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
